@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+
+
+    <div class="filter-example">
+        <ul class="filter-example-list button-group">
+            <li class="filter-example-item" data-filter="*">All</li>
+            <li class="filter-example-item" data-filter=".filter__block--pink">filter pink</li>
+            <li class="filter-example-item" data-filter=".filter__block--green">filter green</li>
+            <li class="filter-example-item" data-filter=".filter__block--yellow">filter yellow</li>
+        </ul>
+
+        <div class="filter__block-wrap">
+            <div class="filter__block filter__block--pink" data-category="filter__block--pink"></div>
+            <div class="filter__block filter__block--green" data-category="filter__block--green"></div>
+            <div class="filter__block filter__block--yellow" data-category="filter__block--yellow"></div>
+            <div class="filter__block filter__block--pink" data-category="filter__block--pink"></div>
+            <div class="filter__block filter__block--green" data-category=""></div>
+            <div class="filter__block filter__block--yellow" data-category="filter__block--yellow"></div>
+            <div class="filter__block filter__block--pink" data-category="filter__block--pink"></div>
+            <div class="filter__block filter__block--green" data-category="filter__block--green"></div>
+            <div class="filter__block filter__block--yellow" data-category="filter__block--yellow"></div>
+            <div class="filter__block filter__block--pink" data-category="filter__block--pink"></div>
+        </div>
+    </div>
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="isotope.pkgd.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

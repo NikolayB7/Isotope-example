@@ -1,0 +1,49 @@
+.filter-example-list {
+  padding-left: 0;
+}
+
+.filter-example-item {
+  cursor: pointer;
+  padding: 5px;
+  border: 1px solid #222;
+  background-color: rgba(187, 187, 187, 0.856);
+  margin-right: 20px;
+  display: inline-block;
+  text-transform: uppercase;
+}
+
+.filter-example-item:last-child {
+  margin-right: 0;
+}
+
+.filter__block-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.filter__block {
+  margin-bottom: 15px;
+  margin-right: 20px;
+  width: 150px;
+  height: 150px;
+}
+
+.filter__block:last-child {
+  margin-right: 0;
+}
+
+.filter__block--pink {
+  background-color: pink;
+}
+
+.filter__block--green {
+  background-color: green;
+}
+
+.filter__block--yellow {
+  background-color: yellow;
+}
+/*# sourceMappingURL=main.css.map */
